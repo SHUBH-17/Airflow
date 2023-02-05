@@ -1,0 +1,13 @@
+Airflow:
+23 jan 2023
+30 jan 2023
+-------------------------
+01 feb 2023
+--Windows PowerShell
+mkdir AirFlowDocker
+cd .\AirFlowDocker\
+code . (opens VS code)
+
+inside AirFlowDocker directory
+create "docker-compose.yml" file
+
