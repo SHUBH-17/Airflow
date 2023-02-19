@@ -11,3 +11,28 @@ code . (opens VS code)
 inside AirFlowDocker directory
 create "docker-compose.yml" file
 
+-------------------------------------
+06 feb 2023
+-------------------------------------
+12 feb 2023 
+cd d:
+mkdir FirstDag
+cd .\FirstDag\
+code . (opens VS code)
+
+create docker-compose.yml and .env file inside FirstDag directory
+
+directory : raw_data -> file : booking.csv, client.csv, hotel.csv
+
+directory : dags -> another directory : data_injestion_dag -> file : main.py
+
+--dags/data_injestion_dag/main.py (to run and check python program)
+
+open terminal of ide:
+docker-compose up
+--this runs the docker compose file  
+execute the DAG(JOB) -> check processed_data/processed_data.csv (data is loaded here)
+
+docker-compose down
+
+
